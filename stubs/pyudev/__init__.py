@@ -7,6 +7,8 @@ from ._errors import (
     DeviceNotFoundInEnvironmentError,
 )
 
+from ._util import udev_version
+
 __all__ = [
     "DeviceNotFoundAtPathError",
     "DeviceNotFoundByFileError",
@@ -14,4 +16,5 @@ __all__ = [
     "DeviceNotFoundByNumberError",
     "DeviceNotFoundError",
     "DeviceNotFoundInEnvironmentError",
+    "udev_version",
 ]
