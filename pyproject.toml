@@ -16,9 +16,6 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
-
-[tool.pdm.build]
-includes = [
-    "src/pyudev-stubs",
-    "stubs",
+build.includes = [
+    "src",
 ]
