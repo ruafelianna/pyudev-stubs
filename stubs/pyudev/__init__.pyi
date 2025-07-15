@@ -13,6 +13,14 @@ from .core import Context, Enumerator
 
 from .device import Attributes, Device, Devices, Tags
 
+from .discover import (
+    DeviceFileHypothesis,
+    DeviceNameHypothesis,
+    DeviceNumberHypothesis,
+    DevicePathHypothesis,
+    Discovery,
+)
+
 __all__ = [
     "DeviceNotFoundAtPathError",
     "DeviceNotFoundByFileError",
@@ -27,4 +35,9 @@ __all__ = [
     "Device",
     "Devices",
     "Tags",
+    "DeviceFileHypothesis",
+    "DeviceNameHypothesis",
+    "DeviceNumberHypothesis",
+    "DevicePathHypothesis",
+    "Discovery",
 ]
