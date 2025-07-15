@@ -9,6 +9,8 @@ from ._errors import (
 
 from ._util import udev_version
 
+from .core import Context, Enumerator
+
 from .device import Attributes, Device, Devices, Tags
 
 __all__ = [
@@ -18,6 +20,8 @@ __all__ = [
     "DeviceNotFoundByNumberError",
     "DeviceNotFoundError",
     "DeviceNotFoundInEnvironmentError",
+    "Context",
+    "Enumerator",
     "udev_version",
     "Attributes",
     "Device",
