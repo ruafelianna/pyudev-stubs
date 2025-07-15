@@ -23,6 +23,8 @@ from .discover import (
 
 from .monitor import Monitor, MonitorObserver
 
+from .version import __version__, __version_info__
+
 __all__ = [
     "DeviceNotFoundAtPathError",
     "DeviceNotFoundByFileError",
