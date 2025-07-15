@@ -21,6 +21,8 @@ from .discover import (
     Discovery,
 )
 
+from .monitor import Monitor, MonitorObserver
+
 __all__ = [
     "DeviceNotFoundAtPathError",
     "DeviceNotFoundByFileError",
@@ -40,4 +42,6 @@ __all__ = [
     "DeviceNumberHypothesis",
     "DevicePathHypothesis",
     "Discovery",
+    "Monitor",
+    "MonitorObserver",
 ]
